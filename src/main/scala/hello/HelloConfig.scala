@@ -24,7 +24,7 @@ class HelloConfig {
   @RequestMapping(value=Array("/"), method=Array(RequestMethod.GET))
   @ResponseBody
   def myApp(): String = {
-    "Hello World!! This is my first App."
+    "Hello World! This is my first App."
   }
 
 }
